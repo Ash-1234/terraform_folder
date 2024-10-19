@@ -1,0 +1,12 @@
+versions: 3
+parallel plan: true
+parallel apply: true
+projects:
+ - name: ec2_instance
+   dir: .
+   apply_reuirments:[approved]
+   autoplan:
+     enabled:true
+
+
+
