@@ -5,14 +5,14 @@ projects:
   - name: ec2_instance
     dir: variable
     workspace: ec2_instance  # Ensure this is the correct workspace name
-    apply_requirements: []  # Ensure the key is spelled correctly
+   
     autoplan:
       enabled: true  # Space added after the colon
       when_modified: ["*.tf", "terraform.lock.hcl"]
   - name: staging
     dir: atlantis
     workspace: staging  # Ensure this is the correct workspace name
-    apply_requirements: []  # Ensure the key is spelled correctly
+   
     autoplan:
       enabled: true  # Space added after the colon
       #when_modified: ["*.tf", "terraform.lock.hcl"]
