@@ -1,13 +1,12 @@
-versions: 3
-parallel plan: true
-parallel apply: true
+version: 3
+parallel_plan: true
+parallel_apply: true
 projects:
- - name: ec2_instance
-   dir: variable
-   workspace: ecc2_instance
-   apply_requirments: []
-   autoplan:
-     enabled:true
-     when_modified: ["*.tf","terraform.lock.hcl"]
 
-
+  - name: ec2_instance
+    dir: variable
+    workspace: ec2_instance  # Ensure this is the correct workspace name
+    apply_requirements: []  # Ensure the key is spelled correctly
+    autoplan:
+      enabled: true  # Space added after the colon
+      when_modified: ["*.tf", "terraform.lock.hcl"]

@@ -2,6 +2,7 @@ version: 3
 parallel_plan: true
 parallel_apply: true
 projects:
+
   - name: ec2_instance
     dir: variable
     workspace: ec2_instance  # Ensure this is the correct workspace name
