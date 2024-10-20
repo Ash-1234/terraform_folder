@@ -7,6 +7,6 @@ resource "aws_instance" "ec2_type_1" {
     instance_type = t2.micro
     key_name = "k8s"
     tags = {
-        Name = "tf-examples_new"
+        Name = "ashwini"
     }
 }
