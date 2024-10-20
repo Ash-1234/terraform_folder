@@ -7,6 +7,6 @@ resource "aws_instance" "ec2_type_1" {
     instance_type = var.var_instance_type_any
     key_name = "k8s"
     tags = {
-        Name = "tf-example"
+        Name = "tf-examples"
     }
 }
