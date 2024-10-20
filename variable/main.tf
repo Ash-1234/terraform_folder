@@ -10,6 +10,6 @@ resource "aws_instance" "ec2_type_1" {
 
     key_name = "new_key_pair"
     tags = {
-        Name = "ashwini_new_op_596813"
+        Name = "ashwini_new_op_1532512"
     }
 }
