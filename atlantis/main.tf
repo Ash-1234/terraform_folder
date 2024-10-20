@@ -35,6 +35,6 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = ${terraform.workspace}
+    Name = "terraform_new"
   }
 }
